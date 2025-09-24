@@ -1,0 +1,15 @@
+
+
+<p style="color:{{ block.settings.colour }}"> saty45 test </p>
+
+{% schema %}
+{
+  "name": "this is  my block",
+  "target": "section",
+  "settings": [
+    { "type": "product", "id": "product", "label": "product", "autofill": true },
+    { "type": "color", "id": "colour", "label": "Star Colour", "default": "#ff0000" }
+  ]
+}
+{% endschema %}
+
